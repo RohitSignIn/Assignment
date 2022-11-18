@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <title>Alarm Clock</title>
+</head>
+
+<body>
+
+  <div class="con">
+    <form>
+      <h1 id="cur_time">Set Alarm</h1>
+      <!-- <input type="text" id="alarm" name="alarm" placeholder="Enter the time in yyyy-mm-dd hh:mm:ss"> -->
+      <input type="datetime-local" id="alarm" name="alarm">
+      <div>
+        <button id="alarmSubmit" type="submit">Set Alarm</button><button id="Snooze">Snooze</button>
+      </div>
+      <div id="alarmList"></div>
+    </form>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+
+</html>
